@@ -75,6 +75,8 @@ body{
 .header__content--img{
     width: 30%;
     margin-right:16%;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 /* CLOSE HEADER SECTION */
