@@ -4,6 +4,7 @@ body{
     padding: 0;
     height: auto;
     width: auto;
+    line-height: 1.5;
 }
 /* HEADER SECTION */
 
@@ -97,9 +98,9 @@ body{
 .slider__projects--list{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 400px;
-    padding: 0% 8% 0%;
+    padding: 0% 16% 0%;
     margin:0px 0px 64px;
 }
 .slider__projects--list-items{
@@ -117,4 +118,80 @@ body{
 }
 .slider__projects--list-items_des{
 
+}
+
+
+.slider__about{
+    background-color: #E5E7EB;
+}
+.slider__about--heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0% 16% 0%;
+}
+.slider__about--heading-title{
+    font-size: 64px;
+    font-weight: bold;
+    color: #1F2937;
+    width: 40%;
+    border-bottom: 5px solid #3882F6;
+    border-bottom-left-radius: 50px;
+    border-left: 5px solid #3882F6;
+    margin-top: 0;
+    padding: 64px 0px 64px 48px;
+}
+.slider__about--heading-description{
+    margin: 64px 0px;
+    width: 100%;
+    padding-left: 48px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.slider__about--skillmap{
+    height: 305px;
+    margin:0px 0px 64px;
+    display: flex;
+    justify-content: space-between;
+    padding:0 16% 0;
+}
+.slider__about--skillmap-skill{
+    width: 300px;
+    height: 300px;
+    border-radius:100px;
+    background-color: #FFF;
+    display:grid;
+}
+.skill__name{
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    color: #1F2937;
+}
+.slider__about--skillmap-connector{
+    height: 15px;
+    background-color: #3882F6;
+    border-radius: 50px;
+    width:10%;
+    align-self:center;
+}
+.slider__about--other{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:0 16% 0;
+}
+.slider__about--other-text{
+    color: #1F2937;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+.slider__about--other-end{
+    border-top-right-radius: 50px;
+    border-top:5px solid #3882F6;
+    border-right: 5px solid #3882F6;
+}
+.space{
+    color: #E5E7EB;
+    margin:48px 0px;
 }
