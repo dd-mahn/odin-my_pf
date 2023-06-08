@@ -5,6 +5,7 @@ body{
     height: auto;
     width: auto;
     line-height: 1.5;
+    letter-spacing: 2px;
 }
 /* HEADER SECTION */
 
@@ -20,15 +21,22 @@ body{
 }
 .header__navbar{
     width: 100%;
+    height: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 24px 0px 24px 0px;
+    padding: 12px 0px 12px 0px;
 }
 .header__navbar--logo{
     width:20%;
     margin-left: 16%;
     font-size: 24px;
+}
+.header__navbar--logo strong{
+    padding: 0 8px 8px 0;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-bottom-right-radius: 25px;
 }
 .header__navbar--items{
     margin-right: 16%;
@@ -36,7 +44,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.nav{
+    display: flex;
+    align-items: center;
+}
 .nav a{
     text-decoration: none;
     color: #E5E7EB;
@@ -68,7 +79,7 @@ body{
     width: 30%;
     text-align: center;
     padding: 16px;
-    border-radius: 10px;
+    border-radius: 25px;
     color: #FFF;
 }
 .header__content--side-btn a{
@@ -89,7 +100,7 @@ body{
     width:30%;
     height: 392px;
     background-color: #FFF;
-    opacity: 20%;
+    opacity: 10%;
     border-radius: 25px;
     left: 51%;
     color: #FFF;
@@ -209,4 +220,111 @@ body{
 .space{
     color: #E5E7EB;
     margin:48px 0px;
+}
+
+
+.slider__contact{
+    background-color: #FFF;
+    padding: 0 305px 64px;
+}
+.slider__contact--heading{
+    display:flex;
+    justify-content: space-between;
+}
+.slider__contact--heading-text{
+    font-size: 48px;
+    color: #1F2937;
+    margin-top:0;
+    border-right: 5px solid #3882F6;
+    border-bottom: 5px solid #3882F6;
+    border-bottom-right-radius: 50px;
+    padding: 48px;
+}
+.slider__contact--input-text{
+    margin:12% 0 0;
+    letter-spacing: 3px;
+}
+.slider__contact--form-input{
+    display: flex;
+    flex-direction: column;
+}
+.slider__contact--input-box{
+    margin: 48px 0;
+    line-height: 2.5;
+    border: none;
+    outline: none;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.slider__contact--input-name{
+    width: 50%;
+}
+.slider__contact--input-email{
+    width: 75%;
+}
+.slider__contact--input-msg{
+    width: 98%;
+}
+.slider__contact--form-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+    padding: 64px 0;
+}
+.slider__contact--btn{
+    width:25%;
+    color:#FFF;
+    font-size: 20px;
+    background-color: #3882F6;
+    border:none;
+    border-radius: 25px;
+    text-align: center;
+    padding: 16px;
+    margin:auto;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* CLOSE SLIDER SECTION */
+
+/* FOOTER SECTION */
+
+.footer{
+    height: 250px;
+    padding: 0 305px;
+    background-color: #1F2937;
+}
+.footer__social{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__social--text{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #E5E7EB;
+    margin-top: 10.5%;
+    padding-left: 4%;
+}
+.footer__social--icons{
+    margin-top: 10%;
+}
+#footer__icons{
+    color: #E5E7EB;
+    font-size: 32px;
+    margin: 0 16px;
+}
+.footer__end{
+    color:#1F2937;
+    text-align: center;
+    height: 28%;
+    border-top:5px solid #E5E7EB ;
+    border-left:5px solid #E5E7EB ;
+    border-top-left-radius: 50px;
 }
