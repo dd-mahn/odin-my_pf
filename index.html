@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/345d5666fe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
@@ -17,9 +18,9 @@
                 <strong>GODSADESER</strong>
             </div>
             <div class="header__navbar--items">
-                <div class="nav"><a href="">Projects</a> </div>
-                <div class="nav"><a href="">About</a> </div>
-                <div class="nav"><a href="">Contact</a> </div>
+                <div class="nav"><a href="#projects">Projects</a> </div>
+                <div class="nav"><a href="#about">About</a> </div>
+                <div class="nav"><a href="#contact">Contact</a> </div>
             </div>
         </div>
         <div class="header__content"->
@@ -27,14 +28,14 @@
                 <h3 class="header__content--side-heading">Full-stack</h3>
                 <h3 class="header__content--side-heading">Web Developer.</h3>
                 <p class="header__content--side-description">Hi, I like to create nice visualized web products with great user experiences. </p>
-                <div class="header__content--side-btn"><a href="">Say Hi with me!</a></div>
+                <div class="header__content--side-btn"><a href="#contact">Say Hi with me!</a></div>
             </div>
             <div class="header__content--img-layer">hello</div>
            <img src="/images/me-cropped.jpg" alt="manhdo's photo" class="header__content--img">
         </div>
     </section>
     <section class="slider">
-        <div class="slider__projects">
+        <div class="slider__projects" id="projects">
             <h3 class="slider__projects--heading">My personal projects</h3>
             <div class="slider__projects--list">
                 <div class="slider__projects--list-items">
@@ -64,10 +65,10 @@
             </div>
 
         </div>
-        <div class="slider__about">
+        <div class="slider__about" id="about">
             <div class="slider__about--heading">
                 <h3 class="slider__about--heading-title">About me</h3>
-                <p class="slider__about--heading-description">My name is Manh Do, aka "godsadeser", you may ask me what it means, but I won't tell you. I started programming in 2022, still got a long journey to go. For more information about me and my skills, just take a look at the section below.</p>
+                <p class="slider__about--heading-description">My name is Manh Do, aka "godsadeser", you may ask me what it means, but I won't tell you. I started programming in 2021, still got a long journey to go. For more information about me and my skills, just take a look at the section below.</p>
             </div>
             <div class="slider__about--skillmap">
                 <div class="slider__about--skillmap-skill">
@@ -91,11 +92,34 @@
                 </div>
             </div>
         </div>
-        <div class="slider__contact">
-
+        <div class="slider__contact" id="contact">
+            <div class="slider__contact--heading">
+                <p class="slider__contact--input-text">Send a proposal or ask me anything directly on <span style="color:#3882F6">ducmanh0801@gmail.com</span> </p>
+                <h3 class="slider__contact--heading-text">Say Hi back!</h3>
+            </div>
+            <div class="slider__contact--bottom">
+                <div class="slider__contact--form-input">
+                    <input type="text" name="" required placeholder="Your name here" class="slider__contact--input-name slider__contact--input-box">
+                    <input type="text" name="" required placeholder="Your email address" class="slider__contact--input-email slider__contact--input-box">
+                    <input type="text" name="" required placeholder="Something you wanna say" class="slider__contact--input-msg slider__contact--input-box">
+                    <button type="submit" class="slider__contact--btn">Shoot!</button>
+                </div>
+                
+                    
+            </div>
         </div>
     </section>
     <section class="footer">
+        <div class="footer__social">
+            <p class="footer__social--text">If you want to know a little more.</p>
+            <div class="footer__social--icons">
+                <i id="footer__icons" class="fa-brands fa-github"></i>
+                <i id="footer__icons" class="fa-brands fa-linkedin-in"></i>
+                <i id="footer__icons" class="fa-brands fa-facebook"></i>
+                <i id="footer__icons" class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="footer__end">hello</div>
     </section>
 </body>
 </html>
